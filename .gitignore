@@ -1,5 +1,36 @@
-uploads
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
-_pycache_
+# Ignore virtual environments
+venv/
+.env/
+.venv/
 
-venv
+# Ignore logs and cache
+logs/
+*.log
+*.sqlite3
+*.db
+
+# Ignore VS Code and JetBrains settings
+.vscode/
+.idea/
+
+# Ignore uploads (user uploaded PDFs)
+uploads/
+
+# Ignore FAISS index files
+faiss_index/
+
+# Ignore Streamlit cache
+.streamlit/
+
+# Ignore Jupyter Notebook checkpoints (if using)
+.ipynb_checkpoints/
+
+# Ignore environment files
+.env
+.DS_Store

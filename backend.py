@@ -13,10 +13,10 @@ from dotenv import load_dotenv
 
 # Load environment variables
 load_dotenv()
-GOOGLE_API_KEY = os.getenv("AIzaSyBSPAjN09kQE0QrBMFjQX5mMwbTflWzU44")
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 
 # Initialize Gemini AI
-genai.configure(api_key="AIzaSyBSPAjN09kQE0QrBMFjQX5mMwbTflWzU44")  # Replace with your actual API key
+genai.configure(api_key="GOOGLE_API_KEY")  # Replace with your actual API key
 
 # Function to load and split PDF text
 def load_pdfs(pdf_files):
